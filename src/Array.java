@@ -9,6 +9,7 @@ public class Array {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+        System.out.println();
     }
 
     public void fill() {
@@ -16,4 +17,9 @@ public class Array {
             array[i] = (int) (Math.random() * 10) * (int) (Math.random() * 10);
         }
     }
+
+    public int[] getArray() {
+        return array;
+    }
+
 }
