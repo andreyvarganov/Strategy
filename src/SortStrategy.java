@@ -1,3 +1,3 @@
 public interface SortStrategy {
-    void sort();
+    void sort(int [] array);
 }
